@@ -1,0 +1,70 @@
+#main {
+    width: 500px;
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#search-box {
+display: block;
+width: 400px;
+margin: 10 auto;
+}
+
+#buttons {
+    display: block;
+    width: 242px;  /* WHYYYYYYYYYYYY */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    background-color: rgb(218, 220, 224);
+}
+
+footer a, footer p {
+    color: rgb(112, 117, 122);
+}
+
+#line {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#left-footer {
+    display: inline;
+}
+
+#right-footer {
+    display: inline;
+    margin-right: 10px;
+}
