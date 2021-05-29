@@ -19,6 +19,7 @@
 }
 
 button {
+    display: inline-block;
     color: white;
     background-color: rgb(96, 148, 216);
     font-size: 12;
@@ -40,19 +41,19 @@ button {
 
 #logo {
     display: block;
-    width: 200px;
+    width: 270px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 210px;
     margin-bottom: 20px;
 }
 
 #search-box {
     display: block;
-    width: 400px;
-    height: 2.5em;
-    margin: 10 auto;
+    width: 600px;
+    height: 3.5em;
+    margin: 20 auto;
     border: 1px solid rgb(224, 220, 220);
     border-radius: 25px;
     background-color: white;
@@ -63,16 +64,25 @@ button {
 }
 
 #buttons {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
     width: 242px;  /* WHYYYYYYYYYYYY */
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 input[type="submit"] {
     background-color: #f8f9fa;
     border: 0;
     padding: 10px;
+    font-size: 13;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 3px rgb(196, 191, 191);
 }
 
 #search-bottom {
@@ -87,15 +97,16 @@ footer {
     bottom: 0px;
     left: 0px;
     width: 100vw;
-    background-color: rgb(218, 220, 224);
+    background-color: #f2f2f2;
 }
 
 footer a, footer p {
-    color: rgb(112, 117, 122);
+    font-size: 14;
+    color: rgba(0,0,0,.54);
 }
 
 #line {
-    color: black;
+    border: 1px solid #dadce0;
 }
 
 a {
@@ -106,15 +117,21 @@ a:hover {
     text-decoration: underline;
 }
 
+#top-footer {
+    margin-left: 30px;
+}
+
 #bot-footer {
     display: flex;
     justify-content: space-between;
+    margin: 15px 0px;
 }
 
 #left-footer {
-    display: inline;
+    margin-left: 30px;
 }
 
 #right-footer {
+    margin-right: 30px;
     text-align: right;
 }
