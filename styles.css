@@ -173,3 +173,27 @@ a:hover {
     height: 200px;
 }
 */
+
+
+
+/* RESULTS STYLES */
+
+#results {
+    width: 600px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+.result {
+    margin-top: 40px;
+}
+
+.result-url {
+    font-size: 12;
+    line-height: 0.2;
+}
+
+.result-snippet {
+    margin-top: 5px;
+    font-size: 14;
+}
