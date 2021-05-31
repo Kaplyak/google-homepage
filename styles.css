@@ -149,6 +149,7 @@ a:hover {
 
 #top-footer {
     margin-left: 30px;
+    height: 40px;
 }
 
 #bot-footer {
@@ -167,15 +168,26 @@ a:hover {
 }
 
 #location {
-    border-right: 1px solid #003aad;
+    position: relative;
+    top: 20px;
+    display: inline;
 }
-/*
+
+#precise-location {
+    position: relative;
+    display: inline;
+    top: 20px;
+    left: 20px;
+}
+
 #vl {
+    position: relative;
+    top: 20px;
+    left: 10px;
     display: inline;
     border-left: 1px solid #dadce0;
     height: 200px;
 }
-*/
 
 
 
@@ -227,3 +239,4 @@ a:hover {
     margin-top: 5px;
     font-size: 14;
 }
+
